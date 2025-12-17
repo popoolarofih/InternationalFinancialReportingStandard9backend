@@ -1,0 +1,17 @@
+# Environments
+.env
+.env.*
+venv
+.venv
+# dotenv
+*.env
+*.yml
+
+__pycache__/
+*.pyc
+*.xlsx
+*.csv
+*.pdf
+# pyenv
+.python-version
+*.pyc

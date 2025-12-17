@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.build/
+dist/
+*.egg-info/
+
+# Git / CI
+.git
+.gitignore
+.github/
+.gitlab-ci.yml
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / env
+.env
+.env.* 
+*.pem
+*.key
+
+# Logs and runtime artifacts
+logs/
+worktemplates/
+*.sqlite3
+*.db
+*.log
+
+# Tests
+tests/
+.gitlab-ci.yml

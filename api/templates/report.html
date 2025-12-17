@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECL Model Execution Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ECL Model Execution Report</h1>
+        </div>
+        <div class="content">
+            <p>Dear {{user_name}},</p>
+            <p>We are pleased to inform you that the ECL Model execution has been completed successfully. The report is now available for your review.</p>
+            <p>Report Details:</p>
+            <ul>
+                <li>Execution Date: {{execution_date}}</li>
+                <li>Total Customers: {{total_customers}}</li>
+                <li>Total EAD: ₦{{total_ead}} billion</li>
+                <li>Total ECL: ₦{{total_ecl}} billion</li>
+                <li>Performing Loans Percentage: {{performing_loan_percentage}}%</li>
+            </ul>
+            <p>To access the full report, please log in to the ECL Model Dashboard or click the button below:</p>
+            <p style="text-align: center;">
+                <a href="{{dashboard_url}}" style="background-color: #003366; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 5px;">View Full Report</a>
+            </p>
+            <p>If you have any questions or need further assistance, please don't hesitate to contact our support team.</p>
+            <p>Best regards,<br>RegSuite for IFRS9 Team</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 RegSuite for IFRS9. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
